@@ -1,0 +1,178 @@
+{
+  "type": "div",
+  "id": "container",
+  "className": "container",
+  "content": [
+    {
+      "type": "label",
+      "inputFor": "toggle",
+      "innerHTML": "&#9776;"
+    },
+     {
+      "type": "input",
+      "inputType": "checkbox",
+      "id": "toggle"
+    },
+    {
+      "type": "nav",
+      "className": "menu",
+      "content": [
+        {
+          "type": "div",
+          "className": "logo",
+          "content": [
+            {
+              "type": "img",
+              "src": "img/logo.png",
+              "alt": "logo"
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "content": [
+            {
+              "type": "ul",
+              "className": "ul-container",
+              "content": [
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "href": "#",
+                      "innerHTML": "Home"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "href": "#",
+                      "innerHTML": "Products"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "href": "#",
+                      "innerHTML": "Templates"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "href": "#",
+                      "innerHTML": "Pricing"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "content": [
+            {
+              "type": "ul",
+              "className": "ul-container",
+              "content": [
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "href": "#",
+                      "innerHTML": "Sign In"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "className": "sign_up",
+                      "href": "#",
+                      "innerHTML": "Sign up"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "sec1",
+      "content": [
+        {
+          "type": "div",
+          "id": "leftside",
+          "className": "leftside",
+          "content": [
+            {
+              "type": "h1",
+              "className": "hstyle",
+              "innerHTML": "Create Stunning Visual Media"
+            },
+            {
+              "type": "p",
+              "className": "pstyle",
+              "innerHTML": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adate!"
+            },
+            {
+              "type": "button",
+              "innerHTML": "Create Design ––>"
+            },
+            {
+              "type": "div",
+              "id": "slider_nav",
+              "className": "slider-nav",
+              "content": [
+                {
+                  "type": "div",
+                  "className": "circle-selected"
+                },
+                {
+                  "type": "div",
+                  "className": "circle"
+                },
+                {
+                  "type": "div",
+                  "className": "circle"
+                },
+                {
+                  "type": "div",
+                  "className": "circle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "className": "rightside",
+          "content": [
+            {
+              "type": "img",
+              "alt": "projector",
+              "src": "img/projector.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
