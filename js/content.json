@@ -1,0 +1,224 @@
+{
+  "type": "div",
+  "id": "container",
+  "className": "container",
+  "content": [
+    {
+      "type": "label",
+      "htmlFor": "toggle",
+      "innerHTML": "&#9776;"
+    },
+     {
+      "type": "input",
+      "inputType": "checkbox",
+      "id": "toggle"
+    },
+    {
+      "type": "nav",
+      "className": "menu",
+      "content": [
+        {
+          "type": "div",
+          "className": "logo",
+          "content": [
+            {
+              "type": "img",
+              "src": "img/logo.png",
+              "alt": "logo"
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "content": [
+            {
+              "type": "ul",
+              "className": "ul-container",
+              "content": [
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "id": "home",
+                      "className": "item",
+                      "href": "#",
+                      "innerHTML": "Home"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "id": "products",
+                      "className": "item",
+                      "href": "#",
+                      "innerHTML": "Products"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "id": "templates",
+                      "className": "item",
+                      "href": "#",
+                      "innerHTML": "Templates"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "id": "pricing",
+                      "className": "item",
+                      "href": "#",
+                      "innerHTML": "Pricing"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "content": [
+            {
+              "type": "ul",
+              "className": "ul-container",
+              "content": [
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "href": "#",
+                      "innerHTML": "Sign In"
+                    }
+                  ]
+                },
+                {
+                  "type": "li",
+                  "content": [
+                    {
+                      "type": "a",
+                      "className": "sign_up",
+                      "href": "#",
+                      "innerHTML": "Sign up"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "id": "sec1",
+      "content": [
+        {
+          "type": "div",
+          "id": "leftside",
+          "className": "leftside",
+          "content": [
+            {
+              "type": "h1",
+              "className": "hstyle hideh1",
+              "innerHTML": "Create Stunning Visual Media"
+            },
+             {
+              "type": "h1",
+              "className": "hstyle hideh1",
+              "innerHTML": "Create Stunning consectetur elit"
+            },
+            {
+              "type": "p",
+              "className": "pstyle slide",
+              "innerHTML": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adate!"
+            },
+            {
+              "type": "p",
+              "className": "pstyle slide",
+              "innerHTML": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint"
+            },
+            {
+              "type": "p",
+              "className": "pstyle slide",
+              "innerHTML": " Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est"
+            },
+            {
+              "type": "p",
+              "className": "pstyle slide",
+              "innerHTML": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
+            },
+            {
+              "type": "button",
+              "className": "hidebtn",
+              "innerHTML": "Create Design ––>"
+            },
+            {
+              "type": "div",
+              "id": "slider_nav",
+              "className": "slider-nav",
+              "content": [
+                {
+                  "type": "div",
+                  "id": "sliderbtn1",
+                  "className": "circle"
+                },
+                {
+                  "type": "div",
+                  "id": "sliderbtn2",
+                  "className": "circle"
+                },
+                { 
+                  "type": "div",
+                  "id": "sliderbtn3",
+                  "className": "circle"
+                },
+                {
+                  "type": "div",
+                  "id": "sliderbtn4",
+                  "className": "circle"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "id": "rightside",
+          "className": "rightside imghide imghide2",
+          "content": [
+            {
+              "type": "img",
+              "alt": "projector",
+              "src": "img/projector.png"
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "id": "rightside2",
+          "className": "rightside prices",
+          "content": [
+            {
+              "type": "img",
+              "alt": "projector",
+              "src": "img/prices.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
